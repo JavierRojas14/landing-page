@@ -5,12 +5,20 @@ html {
     font-size: 16px;
 }
 
-.header {
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.upper-portion {
     background-color: #1F2937;
+
+}
+
+.header {
     display: flex;
     align-items: center;
     padding: 20px 20px;
-
 }
 
 #header-text {
@@ -40,17 +48,30 @@ a {
 
 .description-section {
     background-color: #1F2937;
+    display: flex;
+    margin-top: 70px;
+}
+
+.description-container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+    padding-left: 15px;
+
 }
 
 #main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 9px;    
 }
 
 #description-text {
     font-size: 18px;
     color: #F9FAF8;
+    width: 450px;
+    margin-bottom: 10px;
 }
 
 button {
@@ -58,4 +79,12 @@ button {
     color: #F9FAF8;
     padding: 7px 30px;
     border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    flex: 1;
 }
