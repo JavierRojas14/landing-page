@@ -95,3 +95,40 @@ button {
     align-items: center;
 
 }
+
+.image-section {
+    padding: 30px 100px 100px 100px;
+    border: 1px solid black;
+}
+
+.image-section > p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border: 1px solid black;
+    gap: 40px;
+}
+
+.image-box {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.image-box > .image-container {
+    border: 3px solid #3882F6;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.image-box > p {
+    text-align: center;
+
+}
