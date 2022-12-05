@@ -10,6 +10,11 @@ p {
     padding: 0;
 }
 
+button {
+    margin: 0;
+    padding: 0;
+}
+
 .upper-portion {
     background-color: #1F2937;
     padding: 0px 150px 100px 150px;
@@ -114,7 +119,6 @@ button {
 }
 
 .image-box {
-    width: 220px;
     flex-basis: auto;
     border: 1px solid black;
 }
@@ -149,4 +153,32 @@ button {
     float: right;
     font-weight: bold;
     font-size: 22px;
+}
+
+.sign-up-section {
+    padding: 160px;
+}
+
+.sign-up-card {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 40px 100px;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sign-up-card > p {
+    border: 1px solid white;
+
+}
+
+#text-sign-up {
+    font-size: 30px;
+}
+
+.sign-up-card > button {
+    border: 2px solid white;
+    align-self: flex-end;
 }
