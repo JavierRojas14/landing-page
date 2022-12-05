@@ -108,13 +108,15 @@ button {
 
 .images-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 50px;
-    gap: 40px;
+    gap: 60px;
 }
 
 .image-box {
-    flex-grow: 1;
+    width: 220px;
+    flex-basis: auto;
+    border: 1px solid black;
 }
 
 .image-box > .image-container {
