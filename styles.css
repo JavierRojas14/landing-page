@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -146,7 +148,8 @@ button {
     color: rgb(66, 66, 66);
     margin: none;
     padding: none;
-    font-family: "Roboto Light 300";
+    font-family: 'Roboto 300', sans-serif;
+    font-weight: 300;
 }
 
 #thor {
