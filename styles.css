@@ -119,8 +119,8 @@ button {
 }
 
 .image-box {
-    flex-basis: auto;
-    border: 1px solid black;
+    flex-basis: 200px;
+    flex-shrink: 0;
 }
 
 .image-box > .image-container {
@@ -181,4 +181,12 @@ button {
 .sign-up-card > button {
     border: 2px solid white;
     align-self: flex-end;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 35px 0px;
+    text-align: center;
 }
