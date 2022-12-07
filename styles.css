@@ -162,7 +162,7 @@ button {
 .sign-up-card {
     display: flex;
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 40px 100px;
     color: white;
     justify-content: space-between;
